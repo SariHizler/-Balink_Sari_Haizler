@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="sass.css">
+    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+   
+</head>
+
+<body>
+
+    <h1 id="header">Info Weather</h1>
+    <div id="select">
+        <select name="select_country" id="selectCountry" onChange="changeSelect()">
+            <option value="">Select a country</option>Volvo</option>
+            <option value="2459115">New York</option>
+            <option value="2442047">Los Angeles</option>
+            <option value="610264">Barcelona</option>
+            <option value="753692">Audi</option>
+            <option value="721943">Rome</option>
+        </select>
+    </div>
+    <div id="Weather_for_the_next_five_days"></div>
+    <a href="WeatherForOneDay.html" id="moveToWeatherForOneDay">Go to select a weather on a particular day in a particular country</a>
+    <script src="weather.js"></script>
+    <script src="request.js"></script>
+
+</body>
+
+</html>
